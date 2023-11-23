@@ -3,7 +3,7 @@
 
 - 📝 I regularly write articles on [sameervaghela.tech](sameervaghela.tech)
 
-- 💬 Ask me about **MERN Stack, Android (Java), Flutter**
+- 💬 Ask me about **MERN Stack**
 
 - 📫 How to reach me **sameervaghela21@gmail.com**
 
