@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **sameervaghela21@gmail.com**
 
-- 📄 Know about my experiences [resume.sameervaghela.tech](resume.sameervaghela.tech)
+- 📄 Know about my experiences <a href="https://resume.sameervaghela.tech" target="blank"> [resume.sameervaghela.tech]</a>
 
 - ⚡ Fun fact **I'm always dreaming about programs.**
 
