@@ -1,0 +1,132 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Default",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "C_Cpp.updateChannel": "Insiders",
+  "code-runner.runInTerminal": true,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "sync.gist": "9bb3337d363d89f2660383ac36b9719d",
+  "security.workspace.trust.untrustedFiles": "open",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontVariations": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "entity.other.attribute-name", //HTML Attributes
+          "keyword", //import, export, return…
+          "constant", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js" //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      }
+    ],
+    "comments": "#bbff00"
+  },
+  "javascript.preferences.quoteStyle": "double",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorTheme": "CodeSandbox Legacy",
+  "yaml.schemas": {
+    "file:///home/sam/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "editor.formatOnSave": true,
+  "jupyter.askForKernelRestart": false,
+  "editor.largeFileOptimizations": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "3a27aff5-9c01-4c83-b87a-a89b498342c8",
+      "enabled": true,
+      "name": "My navneetedtech Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "54f9cdc1-34e3-4476-8a48-7955160a14ed",
+      "monitor": true
+    }
+  ],
+  "atlascode.jira.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.openFilesInNewWindow": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "italic font",
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "keyword.control",
+          "keyword.control.from",
+          "keyword.control.flow",
+          "keyword.operator.new",
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.default",
+          "keyword.control.trycatch",
+          "keyword.control.conditional",
+          "storage.type",
+          "storage.type.class",
+          "storage.modifier.tsx",
+          "storage.type.function",
+          "storage.modifier.async",
+          "variable.language",
+          "variable.language.this",
+          "variable.language.super",
+          "meta.class",
+          "meta.var.expr",
+          "constant.language.null",
+          "support.type.primitive",
+          "entity.name.method.js",
+          "entity.other.attribute-name",
+          "punctuation.definition.comment",
+          "text.html.basic entity.other.attribute-name",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js",
+        ],
+        "settings": {
+          "fontStyle": "italic",
+        }
+      },
+    ]
+  }
+}
